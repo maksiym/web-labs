@@ -1,0 +1,43 @@
+footer {
+    width: 1600px;
+    height: 195px;
+
+    background: #F8F8F8;
+}
+
+.footer-rights {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+
+    margin-left: 765px;
+    margin-top: 29px;
+
+    color: #848484;
+
+    mix-blend-mode: normal;
+}
+
+.footer-socials {
+    margin-right: 12px;
+    margin-top: 50px;
+}
+
+.footer-hr {
+    position: absolute;
+    width: 1150px;
+    height: 1px;
+
+    margin-left: 193px;
+
+    background: #C4C4C4;
+}
+
+.footer-circle {
+    width: 41px;
+    height: 41px;
+    margin-left: 190px;
+    margin-top: 15px;
+}
