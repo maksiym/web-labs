@@ -4,96 +4,116 @@
 <head>
     <meta charset="UTF-8">
     <title>Circle</title>
+
+    <!-- My fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Mulish"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair Display"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter"
           rel="stylesheet">
+
+    <!-- My styles -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <section class="hero">
+        <div class="container">
 
-    <header class="header">
-        <a class="home-nav nav" href="">Home</a>
-        <a class="other-nav nav" href="">Destinations</a>
-        <a class="other-nav nav" href="">About</a>
-        <a class="other-nav nav" href="">Partner</a>
-        <img class="header-circle" src="images/logo_circle.svg" alt="circle icon">
-        <button class="login-button" type="button">Login</button>
-        <button class="register-button" type="button">Register</button>
-    </header>
+            <header class="header">
+                <nav id="nav-links" class="header__nav">
+                    <ul>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link home-nav" href="">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link other-nav" href="">Destinations</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link other-nav" href="">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link other-nav" href="">Partner</a>
+                        </li>
+                    </ul>
+                </nav>
+                <img class="header__circle-logo" src="images/logo_circle.svg" alt="circle icon">
+                <div class="header__buttons">
+                    <button class="header__login" type="button">Login</button>
+                    <button class="header__register" type="button">Register</button>
+                </div>
+            </header>
 
-    <main class="main">
-        <section class="guides">
-            <table class="guides__content">
-                <tr>
-                    <th>
-                        <div class="guides__content_block">
-                            <h2 class="guides__content_block_topic left-al">Guides by Thousand <br> Sunny</h2>
-                            <p class="guides__content_block_text text left-al">
-                                Packed with tips and advice from our on-the-ground <br>
-                                experts, our city guides' app (iOS and Android) is the <br>
-                                ultimate resource before and during a trip.
-                            </p>
-                            <button class="download-button" type="button">Download</button>
-                        </div>
-                    </th>
-                    <th>
-                        <div class="guides__content_img">
-                            <img src="images/guide_person.svg" alt="person and socials in life">
-                        </div>
-                    </th>
-                </tr>
-            </table>
-        </section>
-
-        <section class="testimonials">
-            <table class="testimonials__content">
-                <tr>
-                    <th>
-                        <h2 class="testimonials__content_topic left-al">Testimonials</h2>
-                        <div class="stars">
-                            <img class="star" src="images/star.svg" alt="star">
-                            <img class="star" src="images/star.svg" alt="star">
-                            <img class="star" src="images/star.svg" alt="star">
-                            <img class="star" src="images/star.svg" alt="star">
-                            <img class="star" src="images/star.svg" alt="star">
-                        </div>
-                        <p class="testimonials__content_text left-al text">
-                            "Quisque in lacus a urna fermentum <br>
-                            euismod. Integer mi nibh, dapibus ac <br>
-                            scelerisque eu, facilisis quis purus. Morbi <br>
-                            blandit sit amet turpis nec" <br>
+            <section class="guides">
+                <div class="guides__content">
+                    <div class="guides__text-block">
+                        <h2 class="guides__content-topic">Guides by Thousand <br> Sunny</h2>
+                        <p class="guides__text-block-paragraph">
+                            Packed with tips and advice from our on-the-ground <br>
+                            experts, our city guides' app (iOS and Android) is the <br>
+                            ultimate resource before and during a trip.
                         </p>
+                        <button class="guides__download-button" type="button">Download</button>
+                    </div>
+                    <div class="guides__img">
+                        <img src="images/guide_person.svg" alt="guide person">
+                    </div>
+                </div>
+            </section>
 
-                        <p class="founder-edward left-al">Edward Newgate</p>
-                        <p class="founder-circle left-al">Founder Circle</p>
-                    </th>
-                    <th>
-                        <img class="founder" src="images/founder.svg" alt="founder of `Circle`">
-                    </th>
-                </tr>
-            </table>
-        </section>
+        </div>
+    </section>
 
-        <section class="stories">
+    <section class="founder">
+        <div class="container">
+            <h2 class="founder__content-topic">Testimonials</h2>
+            <div class="founder__content">
+                <div class="founder__text-block">
+                    <ul class="stars">
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                    </ul>
+                    <p class="founder__text-block-paragraph">
+                        "Quisque in lacus a urna fermentum <br>
+                        euismod. Integer mi nibh, dapibus ac <br>
+                        scelerisque eu, facilisis quis purus. Morbi <br>
+                        blandit sit amet turpis nec" <br>
+                    </p>
+                    <div class="founder__edward-circle">
+                        <p class="founder__edward">Edward Newgate</p>
+                        <p class="founder__circle">Founder Circle</p>
+                    </div>
+                </div>
+                <div class="founder__img">
+                    <img src="images/founder.svg" alt="the founder of the `Circle`">
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <table class="stories-table">
-                <tr>
-                    <th>
-                        <h2>Trending stories</h2>
-                    </th>
-                    <th>
-                        <a class="view-all-ref" href="">View all ></a>
-                    </th>
-                </tr>
-            </table>
-
-            <table class="stories-table">
-                <tr>
-                    <th class="story">
+    <section class="stories">
+        <div class="container">
+            <div class="stories__content">
+                <div class="stories__content-topic">
+                    <h2>Trending stories</h2>
+                    <a class="view-all-ref" href="">View all ></a>
+                </div>
+                <div class="stories__content-blogs">
+                    <div class="story">
                         <img class="story-picture" src="images/preview1.svg" alt="story picture">
                         <h3 class="story-topic">The many benefits of
                             taking a healing holiday</h3>
@@ -102,18 +122,17 @@
                             to help maximise your health and happines...
                         </p>
                         <a class="read-more-ref" href="">Read more</a>
-                    </th>
-                    <th class="story">
+                    </div>
+                    <div class="story">
                         <img class="story-picture" src="images/preview2.svg" alt="story picture">
-                        <h3 class="story-topic">The best Kyoto restaurant
-                            to try Japanese food</h3>
+                        <h3 class="story-topic">The best Kyoto restaurant to try Japanese food</h3>
                         <p class="story-text">
                             From tofu to teahouses, here's our guide to Kyoto's best restaurants
                             to visit...
                         </p>
                         <a class="read-more-ref" href="">Read more</a>
-                    </th>
-                    <th class="story">
+                    </div>
+                    <div class="story">
                         <img class="story-picture" src="images/preview3.svg" alt="story picture">
                         <h3 class="story-topic">Skip Chichen Itza and head
                             to this remote Yucatan</h3>
@@ -122,8 +141,8 @@
                             but braving the jungle and exploring...
                         </p>
                         <a class="read-more-ref" href="">Read more</a>
-                    </th>
-                    <th class="story">
+                    </div>
+                    <div class="story">
                         <img class="story-picture" src="images/preview4.svg" alt="story picture">
                         <h3 class="story-topic">Surf's up at these beginner
                             spots around the world</h3>
@@ -133,35 +152,40 @@
                             is...
                         </p>
                         <a class="read-more-ref" href="">Read more</a>
-                    </th>
-                </tr>
-            </table>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <table>
-                <tr>
-                    <th>
-                        <div class="footer-circle">
-                            <img src="images/logo_circle.svg" alt="circle icon">
-                        </div>
-                    </th>
-                    <th>
-                        <div class="footer-rights">
-                            <p>©2022 Thousand Sunny. All rights reserved</p>
-                        </div>
-                    </th>
-                </tr>
-            </table>
-            <hr class="footer-hr">
-            <div class="footer-socials">
-                <img class="social-ref-logo twitter-ref-logo" src="images/twitter_logo.svg" alt="twitter icon">
-                <img class="social-ref-logo" src="images/facebook_logo.svg" alt="facebook icon">
-                <img class="social-ref-logo" src="images/instagram_logo.svg" alt="instagram icon">
-                <img class="social-ref-logo" src="images/linkedin_logo.svg" alt="linkedin icon">
-                <img class="social-ref-logo" src="images/youtube_logo.svg" alt="youtube icon">
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__circle-rights">
+                <div class="footer-circle">
+                <img src="images/logo_circle.svg" alt="circle icon">
+                </div>
+                <div class="footer-rights">
+                    <p>©2022 Thousand Sunny. All rights reserved</p>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <ul class="footer-socials">
+                <li class="social-ref-logo">
+                    <img src="images/twitter_logo.svg" alt="twitter icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/facebook_logo.svg" alt="facebook icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/instagram_logo.svg" alt="instagram icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/linkedin_logo.svg" alt="linkedin icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/youtube_logo.svg" alt="youtube icon">
+                </li>
+            </ul>
         </div>
     </footer>
 
