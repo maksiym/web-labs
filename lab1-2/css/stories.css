@@ -1,0 +1,92 @@
+.stories {
+    min-height: 862px;
+}
+
+.stories__content {
+    padding-left: 38px;
+    padding-top: 146px;
+}
+
+.stories__content-topic {
+    display: flex;
+    align-items: center;
+}
+
+.stories__content-blogs {
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.story {
+    width: 266px;
+    height: 446px;
+}
+
+.story + .story {
+    margin-left: 25px;
+}
+
+.story-topic {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+
+    margin-right: 10px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    text-align: left;
+}
+
+.story-text {
+    text-align: left;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+
+    margin-right: 15px;
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+
+.view-all-ref {
+    margin-left: 800px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+
+    color: #FB8F1D;
+
+    mix-blend-mode: normal;
+}
+
+.read-more-ref {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+
+    line-height: 28px;
+
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+    float: left;
+    text-decoration: none;
+}
+
+.story-picture {
+    height: 240px;
+    width: 260px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px 8px 0 0;
+}

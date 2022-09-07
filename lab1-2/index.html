@@ -1,10 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>lab1</title>
+    <title>Circle</title>
+
+    <!-- My fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair Display"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter"
+          rel="stylesheet">
+
+    <!-- My styles -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
+    <section class="hero">
+        <div class="container">
+
+            <header class="header">
+                <nav id="nav-links" class="header__nav">
+                    <ul>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link home-nav" href="">Home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link other-nav" href="">Destinations</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link other-nav" href="">About</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="header__nav-link other-nav" href="">Partner</a>
+                        </li>
+                    </ul>
+                </nav>
+                <img class="header__circle-logo" src="images/logo_circle.svg" alt="circle icon">
+                <div class="header__buttons">
+                    <button class="header__login" type="button">Login</button>
+                    <button class="header__register" type="button">Register</button>
+                </div>
+            </header>
+
+            <section class="guides">
+                <div class="guides__content">
+                    <div class="guides__text-block">
+                        <h2 class="guides__content-topic">Guides by Thousand <br> Sunny</h2>
+                        <p class="guides__text-block-paragraph">
+                            Packed with tips and advice from our on-the-ground <br>
+                            experts, our city guides' app (iOS and Android) is the <br>
+                            ultimate resource before and during a trip.
+                        </p>
+                        <button class="guides__download-button" type="button">Download</button>
+                    </div>
+                    <div class="guides__img">
+                        <img src="images/guide_person.svg" alt="guide person">
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <section class="founder">
+        <div class="container">
+            <h2 class="founder__content-topic">Testimonials</h2>
+            <div class="founder__content">
+                <div class="founder__text-block">
+                    <ul class="stars">
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                        <li class="star">
+                            <img src="images/star.svg" alt="star">
+                        </li>
+                    </ul>
+                    <p class="founder__text-block-paragraph">
+                        "Quisque in lacus a urna fermentum <br>
+                        euismod. Integer mi nibh, dapibus ac <br>
+                        scelerisque eu, facilisis quis purus. Morbi <br>
+                        blandit sit amet turpis nec" <br>
+                    </p>
+                    <div class="founder__edward-circle">
+                        <p class="founder__edward">Edward Newgate</p>
+                        <p class="founder__circle">Founder Circle</p>
+                    </div>
+                </div>
+                <div class="founder__img">
+                    <img src="images/founder.svg" alt="the founder of the `Circle`">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stories">
+        <div class="container">
+            <div class="stories__content">
+                <div class="stories__content-topic">
+                    <h2>Trending stories</h2>
+                    <a class="view-all-ref" href="">View all ></a>
+                </div>
+                <div class="stories__content-blogs">
+                    <div class="story">
+                        <img class="story-picture" src="images/preview1.svg" alt="story picture">
+                        <h3 class="story-topic">The many benefits of
+                            taking a healing holiday</h3>
+                        <p class="story-text">
+                            'Helaing holidays' are on the rise
+                            to help maximise your health and happines...
+                        </p>
+                        <a class="read-more-ref" href="">Read more</a>
+                    </div>
+                    <div class="story">
+                        <img class="story-picture" src="images/preview2.svg" alt="story picture">
+                        <h3 class="story-topic">The best Kyoto restaurant to try Japanese food</h3>
+                        <p class="story-text">
+                            From tofu to teahouses, here's our guide to Kyoto's best restaurants
+                            to visit...
+                        </p>
+                        <a class="read-more-ref" href="">Read more</a>
+                    </div>
+                    <div class="story">
+                        <img class="story-picture" src="images/preview3.svg" alt="story picture">
+                        <h3 class="story-topic">Skip Chichen Itza and head
+                            to this remote Yucatan</h3>
+                        <p class="story-text">
+                            It's remote and challenging to get,
+                            but braving the jungle and exploring...
+                        </p>
+                        <a class="read-more-ref" href="">Read more</a>
+                    </div>
+                    <div class="story">
+                        <img class="story-picture" src="images/preview4.svg" alt="story picture">
+                        <h3 class="story-topic">Surf's up at these beginner
+                            spots around the world</h3>
+                        <p class="story-text">
+                            If learning to surf has in on your to-
+                            do list for a while, the good news
+                            is...
+                        </p>
+                        <a class="read-more-ref" href="">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__circle-rights">
+                <div class="footer-circle">
+                <img src="images/logo_circle.svg" alt="circle icon">
+                </div>
+                <div class="footer-rights">
+                    <p>©2022 Thousand Sunny. All rights reserved</p>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <ul class="footer-socials">
+                <li class="social-ref-logo">
+                    <img src="images/twitter_logo.svg" alt="twitter icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/facebook_logo.svg" alt="facebook icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/instagram_logo.svg" alt="instagram icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/linkedin_logo.svg" alt="linkedin icon">
+                </li>
+                <li class="social-ref-logo">
+                    <img src="images/youtube_logo.svg" alt="youtube icon">
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 </html>

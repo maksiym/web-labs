@@ -1,0 +1,49 @@
+.guides__content {
+    margin-top: 146px;
+    display: flex;
+    align-items: center;
+}
+
+.guides__text-block + .guides__img {
+    margin-left: 80px;
+}
+
+.guides__text-block-paragraph {
+    font-family: 'Mulish', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+
+    width: 450px;
+    height: 90px;
+
+    margin-top: 20px;
+
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.guides__text-block-topic {
+    width: 481px;
+    height: 100px;
+}
+
+.guides__download-button {
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    width: 164px;
+    height: 48px;
+
+    margin-top: 39px;
+
+    background: #FB8F1D;
+    color: #FFFFFF;
+    border-radius: 8px;
+
+    border: 1px solid #FFFFFF;
+    mix-blend-mode: normal;
+}
