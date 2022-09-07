@@ -1,51 +1,47 @@
-body {
-    width: 1600px;
-    height: 2600px;
-}
-
-header {
+.header {
     font-family: 'Inter', serif;
     font-style: normal;
+
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
 }
 
-.nav {
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
-    margin-top: 57px;
-    margin-right: 35px;
-    text-decoration: none;
 }
 
-.header-circle {
+.header__circle-logo {
     width: 41px;
     height: 41px;
-    margin-left: 236px;
-    margin-top: 35px;
+    margin-left: 235px;
+    margin-right: 300px;
 }
 
 .other-nav {
+    margin-left: 35px;
     color: #B8BECD;
 }
 
 .home-nav {
-    margin-left: 120px;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-
     color: #202336;
 }
 
-.login-button {
+.header__login + .header__register {
+    margin-left: 18px;
+}
+
+.header__login {
     font-weight: 500;
     font-size: 15px;
 
-    margin-left: 313px;
-    margin-top: 35px;
-
-    position: absolute;
     width: 132px;
     height: 44px;
 
@@ -56,12 +52,10 @@ header {
     background: #FFFFFF;
 }
 
-.register-button {
-    margin-top: 35px;
-    margin-left: 463px;
-    margin-right: 197px;
+.header__register {
+    font-weight: 500;
+    font-size: 15px;
 
-    position: absolute;
     width: 132px;
     height: 44px;
 
